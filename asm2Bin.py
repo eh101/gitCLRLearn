@@ -177,15 +177,7 @@ for line in lines:
 pc = 0
 print lines
 for line in lines:
-    # # 指令转大写
-    # line = line.upper()
-    # if line.find(':') >= 0:
-    #     # 有标号
-    #     # 分离标号和指令
-    #     line = line.split(':')
-    #     # 指令
-    #     line = line[1]
-    #每次循环rs,rd,addr，bCode复位
+    # 每次循环rs,rd,addr，bCode复位
     # 默认源寄存器，R0
     rs = '00'
     # 默认目的寄存器，R0
